@@ -1,0 +1,79 @@
+//FONTES -------------------------------------------------
+//font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+
+//CORES -------------------------------------------------
+//cores
+$primary: #f8b547;
+$secondary: #35353a;
+$light: #fbf9f5;
+$body-bg: $light;
+
+
+//SPACING -------------------------------------------------
+//spacers
+$spacer: 1rem !default;
+$spacers:(
+ 0: 0,
+ 1: $spacer * 0.25,
+ 2: $spacer * 0.5,
+ 3: $spacer,
+ 4: $spacer * 1.5,
+ 5: $spacer * 3,
+ 6: $spacer * 6,
+ 7: $spacer * 8,
+ 8: $spacer * 12,
+) !default;
+
+
+//VARIÁVEIS -------------------------------------------------
+//margem headgins
+$headings-margin-bottom: $spacer * 1;
+
+//line height
+$line-height-base: 1.7;
+
+
+//NAVBAR -------------------------------------------------
+//navlink padding
+$navbar-nav-link-padding-x: 0.8rem;
+
+//padding
+$navbar-padding-y: 1rem;
+
+//color
+$navbar-dark-color: #fff;
+
+
+//BUTTONS -------------------------------------------------
+//radius
+$button-radius: 50px;
+
+//paddings
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+
+//tamanhos
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+
+//toggler
+$navbar-toggler-border-radius: 5px;
+
+
+//HEADINGS -------------------------------------------------
+//font-weight
+$headings-font-weight: bold;
+
+
+//IMPORTS -------------------------------------------------
+//bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
